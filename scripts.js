@@ -101,6 +101,8 @@ async function asyncMap(array, callBack) {
 async function go() {
     const answers = await asyncMap(questions, ask);
     console.log(answers);
+    console.log(answers[0]);
+
 }
 
 go();
